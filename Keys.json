@@ -1,0 +1,26 @@
+[
+  {
+    "alias": "Address 0xc8Bd8086C9B4603ae52d4b5ec90B67b6d2E48Db5",
+    "account": {
+      "version": 3,
+      "id": "930456ee-e3aa-43ae-a7ba-8987517abbf2",
+      "address": "c8bd8086c9b4603ae52d4b5ec90b67b6d2e48db5",
+      "crypto": {
+        "ciphertext": "d9ed4dbbd66fc6cbd0de2a6ae014d543ad7ecbf1dbaf7af8059497c65431c9b6",
+        "cipherparams": {
+          "iv": "4e7e5eb3fbb714f8f2f1b2be855d84a2"
+        },
+        "cipher": "aes-128-ctr",
+        "kdf": "scrypt",
+        "kdfparams": {
+          "dklen": 32,
+          "salt": "f18d15b40557623d56783685e468227852a70671483412f5537e9a5dc762cc62",
+          "n": 8192,
+          "r": 8,
+          "p": 1
+        },
+        "mac": "d9408f02d03367d8a9073818ec62292798cea873052de2acdf2e0c558514dc65"
+      }
+    }
+  }
+]

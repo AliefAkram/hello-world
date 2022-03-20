@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.4.23+commit.124ca40d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "extraData",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveApproval",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "ReceivedEther",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "extraData",
+						"type": "bytes"
+					}
+				],
+				"name": "ReceivedTokens",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"receiveApproval(address,uint256,address,bytes)": {
+					"details": "Receive tokens and generate a log event\r",
+					"params": {
+						"extraData": "Additional data to log\r",
+						"from": "Address from which to transfer tokens\r",
+						"token": "Address of token\r",
+						"value": "Amount of tokens to transfer\r"
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces\\gist-sample\\Untitled_flat.sol": "TokenRecipient"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces\\gist-sample\\Untitled_flat.sol": {
+			"keccak256": "0x38920b6a27bd511a653822a412afaef69c642152a371aed64649da91c4690453",
+			"urls": [
+				"bzzr://3d0115eca4f1dd691232274bf11e9f674fbbd42673709f0ebdc21ee246a7e4d6"
+			]
+		}
+	},
+	"version": 1
+}

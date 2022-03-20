@@ -1,0 +1,59 @@
+{
+    "eth-abi-interactive.nodeURI": "http://localhost:127.0.0.1:8545",
+    "eth-abi-interactive.privateKeysFile": "C:\\Users\\Alief Computer\\eth-abi-interactive\\keys.json",
+    "solidity.defaultCompiler": "remote",
+    "vscode-ethover.default.apikey": "NP67SJJBKB7HNFGGGAJK59NTAYZ3QXVU4B",
+    "vscode-ethover.default.apiurl": "https://etherscan.io/myapikey",
+    "vscode-decompiler.tool.dex2jar.path": "C:\\Users\\Alief Computer\\path-key",
+    "vscode-decompiler.tool.ghidra.path": "C:\\Users\\Alief Computer\\path-key",
+    "vscode-decompiler.tool.idaPro.path": "C:\\Users\\Alief Computer\\path-key",
+    "vscode-decompiler.tool.jadx.path": "C:\\Users\\Alief Computer\\path-key",
+    "vscode-decompiler.tool.jdcli.path": "C:\\Users\\Alief Computer\\path-key",
+    "vscode-decompiler.tool.python38.path": "C:\\Users\\Alief Computer\\AppData\\Roaming\\Code\\CachedExtensionVSIXs\\mgesbert.python-path-0.0.11",
+    "eth-abi-interactive.contractsPath": "C:\\Users\\Alief Computer\\path-key",
+    "mythxvsc.accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiMWE2ZTgzNS04YzQ0LTQyNDEtYjhiNC00MzYxZWUyYzlmMjEiLCJpYXQiOjE2NDY1NTYxNTMuMzI0LCJpc3MiOiJNeXRoWCBBdXRoIFNlcnZpY2UiLCJleHAiOjE5NjIxMzIxNTMuMzE5LCJ1c2VySWQiOiI2MjI0NmM3NjM0OTRlOWRhYzg3NmY3ZWEifQ.L15odGlPjSt1STQJSkSrV1_yYQ_56h8lCkxiKJBg4bk",
+    "mythxvsc.environment": "https://dashboard.mythx.io/#/console",
+    "mythxvsc.ethAddress": "0xc8Bd8086C9B4603ae52d4b5ec90B67b6d2E48Db5",
+    "mythxvsc.password": "Apakatadunia112244@",
+    "solidity.compileUsingLocalVersion": "v0.4.23+commit.124ca40d",
+    "solidity.packageDefaultDependenciesContractsDirectory": "C:\\Users\\Alief Computer\\Downloads\\Solidity",
+    "tokenhover.apiEndpoints": [
+        "https://etherscan.io/myapikey",
+        "https://api.bscscan.com",
+        "https://api.polygonscan.com"
+    ],
+    "tokenhover.apikeys": [
+        "NP67SJJBKB7HNFGGGAJK59NTAYZ3QXVU4B",
+        "Your Bscscan Key",
+        "Your Polygonscan Key"
+    ],
+    "tokenhover.lookupUrls": [
+        "https://etherscan.io/address/0xc8bd8086c9b4603ae52d4b5ec90b67b6d2e48db5",
+        "https://bscscan.com/address/{address}",
+        "https://polygonscan.com/address/{address}"
+    ],
+    "tokenhover.networks": [
+        "Ethereum Mainnet",
+        "BSC",
+        "Polygon"
+    ],
+    "tokenhover.tokens": [
+        "ETH",
+        "BNB",
+        "MATIC"
+    ],
+    "solidity.compileUsingRemoteVersion": "v0.4.23+commit.124ca40d",
+    "solidity.packageDefaultDependenciesDirectory": "C:\\Users\\Alief Computer\\node_modules",
+    "csharp.suppressBuildAssetsNotification": true,
+    "csharp.suppressDotnetInstallWarning": true,
+    "csharp.suppressProjectJsonWarning": true,
+    "omnisharp.disableMSBuildDiagnosticWarning": true,
+    "omnisharp.enableAsyncCompletion": true,
+    "omnisharp.enableImportCompletion": true,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.organizeImportsOnFormat": true,
+    "omnisharp.waitForDebugger": true,
+    "razor.devmode": true,
+    "razor.languageServer.debug": true
+}

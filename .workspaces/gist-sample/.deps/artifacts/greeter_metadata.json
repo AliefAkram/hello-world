@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.4.14+commit.c2215d46"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"payable": false,
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/baru.sol": "greeter"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/baru.sol": {
+			"keccak256": "0x93fbb6323c44ecf1d71c6b486b4ff2b09028b2b28a3adcc5f042c55994b78031",
+			"urls": [
+				"bzzr://af18c0eecb9dda6a87d295c09feb7412c181dfd86b87203a8060d4f7ff85ebd7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.4.23+commit.124ca40d"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "proxyType",
+				"outputs": [
+					{
+						"name": "proxyTypeId",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "upgradeabilityOwner",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"implementation()": {
+					"details": "Tells the address of the current implementation\r",
+					"return": "address of the current implementation\r"
+				},
+				"proxyType()": {
+					"details": "Tells the proxy type (EIP 897)\r",
+					"return": "Proxy type, 2 for forwarding proxy\r"
+				},
+				"upgradeabilityOwner()": {
+					"details": "Tells the address of the owner\r",
+					"return": "the address of the owner\r"
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gist-sample\\Unlilted_flat.sol": "OwnedUpgradeabilityStorage"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gist-sample\\Unlilted_flat.sol": {
+			"keccak256": "0xb9e8a8a020a409817f339118c9e13865fba2d71f7f64b590a3ed6736998e4044",
+			"urls": [
+				"bzzr://4453858d1d9c7bd9cdb43be8b9f076545fb8bd337af207471d8d3612e2f2aaea"
+			]
+		}
+	},
+	"version": 1
+}

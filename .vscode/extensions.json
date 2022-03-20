@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "hosho.solidity-debugger",
+        "mythx.mythxvsc",
+        "msjsdiag.debugger-for-chrome",
+        "tintinweb.vscode-ethover",
+        "eg2.vscode-npm-script",
+        "mgesbert.python-path"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "vscode-ethover.default.apiurl": "https://etherscan.io/myapikey",
+    "vscode-ethover.default.apikey": "NP67SJJBKB7HNFGGGAJK59NTAYZ3QXVU4B",
+    "tokenhover.apikeys": [
+        "NP67SJJBKB7HNFGGGAJK59NTAYZ3QXVU4B",
+        "Your Bscscan Key",
+        "Your Polygonscan Key"
+    ],
+    "tokenhover.lookupUrls": [
+        "https://etherscan.io/address/0xc8bd8086c9b4603ae52d4b5ec90b67b6d2e48db5",
+        "https://bscscan.com/address/{address}",
+        "https://polygonscan.com/address/{address}"
+    ],
+    "solidity.compileUsingLocalVersion": "c:\\Users\\Alief Computer\\Downloads\\Solidity\\.workspaces\\soljson-v0.4.23+commit.124ca40d.js",
+    "eth-abi-interactive.privateKeysFile": "C:\\Users\\Alief Computer\\.eth-abi-interactive\\keys.json"
+}
